@@ -50,6 +50,4 @@ int main(int argc, char *argv[]) {
     // 关闭文件描述符
     close(src_fd);
     close(dest_fd);
-
-    return 0;
 }
