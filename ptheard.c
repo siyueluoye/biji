@@ -19,7 +19,7 @@ int main() {
     pthread_t thread_id;
     int thread_arg = 1; 
     int ret;
-
+//创建线程
     
     ret = pthread_create(&thread_id, NULL, thread_function, &thread_arg);
     if (ret != 0) {
