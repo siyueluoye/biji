@@ -4,4 +4,3 @@ CC=gcc
 CFLAGS = -wall -g
 
 hello=hello.c
-
